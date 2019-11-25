@@ -18,7 +18,7 @@ def file_reader(file_name, fasta=False):
     return s.split(to_split_at)
 
 if __name__ == "__main__":
-    l = file_reader("rosalind_lcsm.txt")
+    l = file_reader("rosalind_prot.txt")
     for el in l:
         print(el)
     print(len(l))
